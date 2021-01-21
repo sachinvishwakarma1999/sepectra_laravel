@@ -1,0 +1,97 @@
+{
+  "menu": [
+    {
+      "url": "#",
+      "name": "User Management",
+      "i18n": "User",
+      "icon": "users",
+      "submenu": [
+        {
+          "url": "page-users-list",
+          "name": "List",
+          "i18n": "List",
+          "icon": "bx bx-right-arrow-alt"
+        }
+      ]
+    },
+    {
+      "url": "#",
+      "name": "Inventory",
+      "icon": "notebook",
+      "slug": "",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "page-inventory-list",
+          "name": "Inventory Management",
+          "i18n": "Inventory",
+          "slug": "",
+          "icon": "bx bx-right-arrow-alt"
+        }
+      ]
+    },
+    {
+      "url": "#",
+      "name": "ATTRIBUTES",
+      "icon": "notebook",
+      "slug": "",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "service-list",
+          "name": "Service",
+          "i18n": "Service",
+          "slug": "",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "color-list",
+          "name": "Color",
+          "i18n": "Color",
+          "slug": "",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "project-list",
+          "name": "Project",
+          "i18n": "Project",
+          "slug": "",
+          "icon": "bx bx-right-arrow-alt"
+        }
+      ]
+    },
+    {
+      "url": "#",
+      "name": "Settings",
+      "icon": "notebook",
+      "slug": "",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "page-account-settings",
+          "name": "Account Settings",
+          "i18n": "Account Settings",
+          "icon": "bx bx-right-arrow-alt",
+          "slug": "page-account-settings"
+        }
+      ]
+    },
+    {
+      "url": "#",
+      "name": "Invoice",
+      "icon": "notebook",
+      "slug": "",
+      "dropdown": "1",
+      "submenu": [
+        {
+          "url": "checktoken",
+          "name": "Invoice",
+          "i18n": "Invoice",
+          "icon": "bx bx-right-arrow-alt",
+          "slug": "checktoken"
+        }
+      ]
+    }
+
+  ]
+}
